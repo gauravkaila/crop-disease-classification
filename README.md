@@ -1,7 +1,8 @@
+$ ./tree-md .
 # Project tree
 
 .
- * [Kisan_app](./Kisan_app)
+ * [tree-md](./tree-md)
  * [dir2](./dir2)
    * [file21.ext](./dir2/file21.ext)
    * [file22.ext](./dir2/file22.ext)
@@ -12,7 +13,6 @@
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
  * [dir3](./dir3)
-
 ## Folder structure
 KisanLab_CPU-|
 				              |-Kisan_app-|
