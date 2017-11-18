@@ -13,13 +13,13 @@ source py35/bin/activate
 ### Install dependencies
 sh requirements.sh
 
-Note:
+Note: <br />
 1. To setup nginx properly, follow the setup tutorial here: https://www.matthealy.com.au/blog/post/deploying-flask-to-amazon-web-services-ec2/
 
-2. Delete the default nginx page
+2. Delete the default nginx page <br />
 sudo rm /etc/nginx/sites-enabled/default
 
-3. Restart the nginx server
+3. Restart the nginx server <br />
 sudo service nginx restart
 
 ## Project tree
