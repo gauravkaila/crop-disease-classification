@@ -1,7 +1,9 @@
 ## Project tree
 
  * [Kisan_app](./kisan_app)
- * [dir2](./dir2)
+ 	* [model](./kisan_app/model): directory containing model files for API
+	* [templates](./kisan_app/templates)
+	* [static](./kisan_app/static)
    * [file21.ext](./dir2/file21.ext)
    * [file22.ext](./dir2/file22.ext)
    * [file23.ext](./dir2/file23.ext)
