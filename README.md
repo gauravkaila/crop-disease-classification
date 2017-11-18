@@ -4,6 +4,7 @@ Deep learning based automated tomato plant disease classification covering over 
 ## Get Started
 
 ### Instal python virtualenv
+sudo apt install virtualenv
 virtualenv --system-site-packages -p python3 py35
 
 ### Activate the python virtualenv (run from root)
