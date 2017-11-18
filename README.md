@@ -1,18 +1,20 @@
-## Folder structure
-KisanLab_CPU-|
-				              |-Kisan_app-|
-				              |                      |- model: directory containing model files for API
-				              |                      |- templates
-				              |                      |- static
-				              |-tf_files-|
-				              |                      |- models: directory containing model files for training
-				              |                      |- bottlenecks: feature files for each image for each class. required for faster training		              
-				              |-data_dir: contains sub-folders with images of each class
-				              |-scripts: contains python files for training the models, evaluation and quantization
-				              |-train.sh: bash script to run the training for inceptionV3 model
-				              |-train_mobilenet.sh: bash script to run the training for the mobilenet model
-				              |-retrain.sh: bash script to re-train the model on new images
-				              |-retrain_compare.sh: utility script for retrain.sh	                                      
+## Project tree
+
+ * [Kisan_app](./kisan_app)
+   * [model](./kisan_app/model): directory containing model files for API
+   * [templates](./kisan_app/templates)
+   * [static](./kisan_app/static)
+   
+ * [tf_files](./tf_files)
+   * [models](./tf_files/models): directory containing model files for training
+   * [bottlenecks](./tf_files/bottlenecks): feature files for each image for each
+ * [data_dir]: get data_dir @{insert link to S3 bucket}
+ * [scripts](./scripts): contains python files for training the models, evaluation and quantization
+ * [train.sh](./train.sh): bash script to run the training for inceptionV3 model
+ * [train_mobilenet.sh](./train_mobilenet.sh): bash script to run the training for the mobilenet model
+ * [retrain.sh](./retrain.sh): bash script to re-train the model on new images
+ * [retrain_compare.py](./retrain_compare.py): utility script for retrain.sh
+ * [README.md](./README.md)
 
 ## Training the image-classification model
 
