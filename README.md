@@ -1,18 +1,21 @@
 ## Project tree
 
  * [Kisan_app](./kisan_app)
- 	* [model](./kisan_app/model): directory containing model files for API
-	* [templates](./kisan_app/templates)
-	* [static](./kisan_app/static)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
+   * [model](./kisan_app/model): directory containing model files for API
+   * [templates](./kisan_app/templates)
+   * [static](./kisan_app/static)
+   
+ * [tf_files](./tf_files)
+   * [models](./tf_files/models): directory containing model files for training
+   * [bottlenecks](./tf_files/bottlenecks): feature files for each image for each
+ * [data_dir]: get data_dir @{insert link to S3 bucket}
+ * [scripts](./scripts): contains python files for training the models, evaluation and quantization
+ * [train.sh](./train.sh): bash script to run the training for inceptionV3 model
+ * [train_mobilenet.sh](./train_mobilenet.sh): bash script to run the training for the mobilenet model
+ * [retrain.sh](./retrain.sh): bash script to re-train the model on new images
+ * [retrain_compare.sh](./retrain_compare.sh): utility script for retrain.sh
  * [README.md](./README.md)
- * [dir3](./dir3)
+
 ## Folder structure
 KisanLab_CPU-|
 				              |-Kisan_app-|
