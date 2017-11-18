@@ -13,7 +13,7 @@
  * [train.sh](./train.sh): bash script to run the training for inceptionV3 model
  * [train_mobilenet.sh](./train_mobilenet.sh): bash script to run the training for the mobilenet model
  * [retrain.sh](./retrain.sh): bash script to re-train the model on new images
- * [retrain_compare.sh](./retrain_compare.sh): utility script for retrain.sh
+ * [retrain_compare.py](./retrain_compare.py): utility script for retrain.sh
  * [README.md](./README.md)
 
 ## Training the image-classification model
