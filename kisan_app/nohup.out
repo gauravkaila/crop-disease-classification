@@ -1,0 +1,1527 @@
+[2017-10-31 16:21:11 +0000] [14995] [INFO] Starting gunicorn 19.7.1
+[2017-10-31 16:21:11 +0000] [14995] [INFO] Listening at: http://127.0.0.1:8000 (14995)
+[2017-10-31 16:21:11 +0000] [14995] [INFO] Using worker: sync
+[2017-10-31 16:21:11 +0000] [14998] [INFO] Booting worker with pid: 14998
+2017-10-31 16:21:12.369824: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:21:12.369856: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:21:12.369862: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:21:12.369867: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:21:12.369871: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:21:12.434026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-10-31 16:21:12.434210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 419.12MiB
+2017-10-31 16:21:12.434230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-10-31 16:21:12.434236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-10-31 16:21:12.434244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:23:36.391710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-10-31 16:29:54 +0000] [15061] [INFO] Starting gunicorn 19.7.1
+[2017-10-31 16:29:54 +0000] [15061] [INFO] Listening at: http://127.0.0.1:8000 (15061)
+[2017-10-31 16:29:54 +0000] [15061] [INFO] Using worker: sync
+[2017-10-31 16:29:54 +0000] [15064] [INFO] Booting worker with pid: 15064
+2017-10-31 16:29:55.668229: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:29:55.668266: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:29:55.668273: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:29:55.668278: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:29:55.668283: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:29:55.733119: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-10-31 16:29:55.733296: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 77.75MiB
+2017-10-31 16:29:55.733323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-10-31 16:29:55.733329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-10-31 16:29:55.733338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:30:06.907383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:30:07.152383: E tensorflow/stream_executor/cuda/cuda_dnn.cc:371] could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR
+2017-10-31 16:30:07.152425: E tensorflow/stream_executor/cuda/cuda_dnn.cc:338] could not destroy cudnn handle: CUDNN_STATUS_BAD_PARAM
+2017-10-31 16:30:07.152434: F tensorflow/core/kernels/conv_ops.cc:672] Check failed: stream->parent()->GetConvolveAlgorithms( conv_parameters.ShouldIncludeWinogradNonfusedAlgo<T>(), &algorithms) 
+[2017-10-31 16:30:07 +0000] [15085] [INFO] Booting worker with pid: 15085
+2017-10-31 16:30:08.117862: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:08.117897: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:08.117903: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:08.117907: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:08.117912: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:08.182306: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-10-31 16:30:08.182487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 77.75MiB
+2017-10-31 16:30:08.182504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-10-31 16:30:08.182511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-10-31 16:30:08.182519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-10-31 16:30:35 +0000] [15112] [INFO] Starting gunicorn 19.7.1
+[2017-10-31 16:30:35 +0000] [15112] [INFO] Listening at: http://127.0.0.1:8000 (15112)
+[2017-10-31 16:30:35 +0000] [15112] [INFO] Using worker: sync
+[2017-10-31 16:30:35 +0000] [15115] [INFO] Booting worker with pid: 15115
+2017-10-31 16:30:36.633182: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:36.633218: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:36.633225: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:36.633240: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:36.633245: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:36.647119: E tensorflow/core/common_runtime/direct_session.cc:171] Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 11995578368
+[2017-10-31 16:30:36 +0000] [15115] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 43, in <module>
+    sess = tf.Session(graph=graph)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1486, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 621, in __init__
+    self._session = tf_session.TF_NewDeprecatedSession(opts, status)
+  File "/usr/lib/python3.5/contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/framework/errors_impl.py", line 466, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.InternalError: Failed to create session.
+[2017-10-31 16:30:36 +0000] [15115] [INFO] Worker exiting (pid: 15115)
+[2017-10-31 16:30:36 +0000] [15112] [INFO] Shutting down: Master
+[2017-10-31 16:30:36 +0000] [15112] [INFO] Reason: Worker failed to boot.
+[2017-10-31 16:30:41 +0000] [14995] [INFO] Handling signal: term
+[2017-10-31 16:30:41 +0000] [14998] [INFO] Worker exiting (pid: 14998)
+copper deficiency in tomato 0.980294
+tomato bushy stunt virus 0.00809697
+sulfur deficiency in tomato 0.00262468
+nitrogen deficiency in tomato 0.00164022
+fusarium wilt 0.00151214
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Copper_deficiency_in_tomato/bc51002p2.jpg
+[2017-10-31 16:30:41 +0000] [15085] [INFO] Worker exiting (pid: 15085)
+[2017-10-31 16:30:41 +0000] [15061] [INFO] Handling signal: term
+[2017-10-31 16:30:41 +0000] [15061] [INFO] Shutting down: Master
+[2017-10-31 16:30:42 +0000] [14995] [INFO] Shutting down: Master
+[2017-10-31 16:30:43 +0000] [15133] [INFO] Starting gunicorn 19.7.1
+[2017-10-31 16:30:43 +0000] [15133] [INFO] Listening at: http://127.0.0.1:8000 (15133)
+[2017-10-31 16:30:43 +0000] [15133] [INFO] Using worker: sync
+[2017-10-31 16:30:43 +0000] [15136] [INFO] Booting worker with pid: 15136
+2017-10-31 16:30:44.253830: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:44.253869: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:44.253884: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:44.253889: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:44.253894: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-31 16:30:46.995264: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-10-31 16:30:46.995579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-10-31 16:30:46.995597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-10-31 16:30:46.995604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-10-31 16:30:46.995612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:30:53.412250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:31:03.828024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:31:16.848703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:31:28.137004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:31:32.476456: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 16:31:44.679092: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 17:12:48.838787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 17:12:57.683427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 17:42:50.093032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-10-31 19:54:28.867171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-01 09:59:28.672747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-01 12:05:49.850783: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-01 15:48:53.916768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-01 16:53:37.271136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-02 09:24:03.276748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-02 16:05:53.396847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:21:14.259062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:21:34.380600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:21:52.032230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:22:03.482942: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:22:14.081770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:22:26.606817: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:22:39.306583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:22:49.596486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 02:23:02.117076: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:03:12.277728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:03:38.035332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:04:58.016660: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:05:17.245658: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:11:50.088766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:12:49.369643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:13:01.656655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:15:07.061401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:15:18.406371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+molybdenum deficiency in tomato 0.994494
+iron deficiency in tomato 0.00252043
+boron deficiency in tomato 0.000881049
+phosphorus deficiency in tomato 0.0005849
+magnesium deficiency in tomato 0.000397844
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Molybdenum_deficiency_in_tomato/Molybdenum-deficiency-symptoms-in-tomato.jpg
+molybdenum deficiency in tomato 0.956549
+nitrogen deficiency in tomato 0.0249732
+sulfur deficiency in tomato 0.00920495
+potassium deficiency in tomato 0.00232924
+curly top 0.00141321
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Molybdenum_deficiency_in_tomato/bc51002p8.jpg
+potassium deficiency in tomato 0.352374
+phosphorus deficiency in tomato 0.298004
+iron deficiency in tomato 0.111237
+tomato mosaic virus 0.0761458
+tomato yellow leaf curl virus 0.0413839
+copper deficiency in tomato 0.980294
+tomato bushy stunt virus 0.00809697
+sulfur deficiency in tomato 0.00262468
+nitrogen deficiency in tomato 0.00164022
+fusarium wilt 0.00151214
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Copper_deficiency_in_tomato/bc51002p2.jpg
+copper deficiency in tomato 0.554949
+powdery mildew 0.33417
+manganese deficiency in tomato 0.0507139
+verticillium wilt 0.0159615
+alternaria stem and fruit canker 0.011177
+red spider mites 0.987756
+late blight tomato 0.00713436
+thrips on tomato 0.00251423
+alternaria stem and fruit canker 0.000878669
+anthracnose 0.000560705
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/1728.400x300.jpg
+red spider mites 0.948818
+thrips on tomato 0.0320006
+boron deficiency in tomato 0.0169034
+blossom end rot tomato disease 0.000755954
+calcium deficiency in tomato 0.000627624
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/home-design.jpg
+tomato white fly 0.763099
+serpentine leaf miner 0.105877
+aphids on tomato 0.0856788
+red spider mites 0.0260555
+early blight of tomato 0.0126201
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/Red_spider_Mites_6.jpg
+red spider mites 0.867236
+thrips on tomato 0.112026
+calcium deficiency in tomato 0.00943638
+anthracnose 0.00614376
+late blight tomato 0.00287578
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/GoldFleck1.jpg
+red spider mites 0.948818
+thrips on tomato 0.0320006
+boron deficiency in tomato 0.0169034
+blossom end rot tomato disease 0.000755954
+calcium deficiency in tomato 0.000627624
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/home-design.jpg
+aphids on tomato 0.956813
+early blight of tomato 0.0242292
+pith necrosis 0.0048988
+bacterial spot speck of tomato 0.00423565
+septoria leaf spot 0.00259381
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Aphids_on_tomato/Aphids_9.jpg
+tomato fern leaf 0.963579
+bacterial wilt of tomato 0.0156966
+fusarium wilt 0.00520901
+tomato mosaic virus 0.00447824
+powdery mildew 0.00363077
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_Fern_Leaf/Tomato_Fern_Leaf_12.jpg
+tomato fern leaf 0.963579
+bacterial wilt of tomato 0.0156966
+fusarium wilt 0.00520901
+tomato mosaic virus 0.00447824
+powdery mildew 0.00363077
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_Fern_Leaf/Tomato_Fern_Leaf_12.jpg
+fusarium wilt 0.69542
+tomato fruit borer 0.0874303
+tomato fern leaf 0.0494296
+tomato spotted wilt 0.047511
+potato virus 0.0352028
+early blight of tomato 0.722578
+septoria leaf spot 0.132376
+serpentine leaf miner 0.101266
+bacterial spot speck of tomato 0.0109132
+tomato white fly 0.0105466
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/1234080-WEB.jpg
+late blight tomato 0.53492
+early blight of tomato 0.192075
+calcium deficiency in tomato 0.184813
+alternaria stem and fruit canker 0.0815555
+tomato yellow leaf curl virus 0.00303756
+tomato fruit borer 0.967312
+cutworm on tomato 0.0224789
+alternaria stem and fruit canker 0.00615017
+bacterial spot speck of tomato 0.00264561
+late blight tomato 0.000624289
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/images_8.jpeg
+cutworm on tomato 0.456459
+alternaria stem and fruit canker 0.241452
+tomato fruit borer 0.207079
+early blight of tomato 0.0440715
+late blight tomato 0.0283188
+tomato fruit borer 0.421267
+cutworm on tomato 0.23469
+late blight tomato 0.180768
+early blight of tomato 0.0865086
+tobacco caterpillar on tomato 0.0647726
+early blight of tomato 0.909413
+septoria leaf spot 0.0326242
+late blight tomato 0.0124138
+alternaria stem and fruit canker 0.011115
+bacterial spot speck of tomato 0.0104147
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/images_5.jpeg
+early blight of tomato 0.945246
+magnesium deficiency in tomato 0.0421764
+tomato spotted wilt 0.00250684
+aphids on tomato 0.00231238
+potassium deficiency in tomato 0.00181968
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/images_4.jpeg
+blossom end rot tomato disease 0.348219
+calcium deficiency in tomato 0.33395
+potassium deficiency in tomato 0.207654
+late blight tomato 0.0556596
+alternaria stem and fruit canker 0.0237128
+blossom end rot tomato disease 0.569972
+calcium deficiency in tomato 0.425969
+alternaria stem and fruit canker 0.00248929
+potassium deficiency in tomato 0.00094856
+tomato spotted wilt 0.000198406
+serpentine leaf miner 0.975608
+aphids on tomato 0.0102791
+tomato spotted wilt 0.0057137
+leaf mold 0.00439764
+red spider mites 0.000926415
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/images_1.jpeg
+tomato spotted wilt 0.566979
+potassium deficiency in tomato 0.30823
+manganese deficiency in tomato 0.0401559
+tomato mosaic virus 0.0304608
+fusarium wilt 0.00981433
+serpentine leaf miner 0.960856
+tomato white fly 0.0216143
+powdery mildew 0.0141191
+late blight tomato 0.0014206
+thrips on tomato 0.00101606
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/IMG_20170909_113744864.jpg
+tomato white fly 0.766864
+cutworm on tomato 0.207099
+thrips on tomato 0.0221542
+alternaria stem and fruit canker 0.001374
+tomato fruit borer 0.00110692
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/whiteflytomato1.JPG
+serpentine leaf miner 0.864637
+leaf mold 0.0968378
+tomato white fly 0.0106833
+early blight of tomato 0.00975381
+bacterial spot speck of tomato 0.00535635
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/peat_greenhouse_whitefly_tomato_01.jpg
+serpentine leaf miner 0.864637
+leaf mold 0.0968378
+tomato white fly 0.0106833
+early blight of tomato 0.00975381
+bacterial spot speck of tomato 0.00535635
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/peat_greenhouse_whitefly_tomato_01.jpg
+serpentine leaf miner 0.957809
+zinc deficiency in tomato 0.011001
+manganese deficiency in tomato 0.00659504
+bacterial spot speck of tomato 0.00469493
+early blight of tomato 0.00457558
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/ArticleHeader_LeafMiner1.jpg
+tomato white fly 0.987513
+white grubs of tomato 0.0109977
+tomato mosaic virus 0.00145329
+magnesium deficiency in tomato 1.1887e-05
+verticillium wilt 9.31769e-06
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/download.jpg
+tomato white fly 0.553496
+aphids on tomato 0.28747
+serpentine leaf miner 0.148195
+curly top 0.0044208
+white grubs of tomato 0.00191007
+tomato white fly 0.553496
+aphids on tomato 0.28747
+serpentine leaf miner 0.148195
+curly top 0.0044208
+white grubs of tomato 0.00191007
+alternaria stem and fruit canker 0.798878
+early blight of tomato 0.0720574
+cutworm on tomato 0.0557677
+tomato fruit borer 0.0549759
+late blight tomato 0.0152819
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Alternaria_Stem_and_fruit_Canker/download_1.jpg2017-11-03 05:31:22.430209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:31:32.559443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:31:42.863811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:31:58.019191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:33:51.539714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:34:14.608520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:34:27.905598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:34:49.045264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:35:01.504242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:46:01.132431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:46:22.950043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:50:14.997439: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:54:57.257324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:56:50.079133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:57:01.684691: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:58:18.958570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:58:52.063102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 05:59:34.329286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:03:09.810783: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:05:32.058050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:06:32.487791: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:07:17.959254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:10:09.426914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:11:37.532164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:12:42.568644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:13:51.412075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:29:05.630044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:30:52.399330: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:41:37.270812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:42:07.690335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:43:05.569546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:44:06.760936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+
+tomato fruit borer 0.913934
+alternaria stem and fruit canker 0.0783652
+bacterial spot speck of tomato 0.00700149
+late blight tomato 0.000318641
+anthracnose 0.00018575
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/Gram_Pod_Borer_8.jpg
+tomato fruit borer 0.936942
+cutworm on tomato 0.0509407
+bacterial spot speck of tomato 0.0107769
+calcium deficiency in tomato 0.000788174
+septoria leaf spot 0.000187991
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/IMG_20170912_101323679.jpg
+tomato fruit borer 0.92869
+bacterial spot speck of tomato 0.0700081
+blossom end rot tomato disease 0.000643875
+cutworm on tomato 0.000413497
+septoria leaf spot 8.02283e-05
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/IMG_20170913_162253933.jpg
+tomato fruit borer 0.967972
+cutworm on tomato 0.0268071
+alternaria stem and fruit canker 0.00297448
+bacterial spot speck of tomato 0.00151867
+late blight tomato 0.000246258
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/c5ac9016d17c5e37cd3f84f031995f93167de2c2.jpg
+tomato spotted wilt 0.546838
+bacterial wilt of tomato 0.14876
+tomato yellow leaf curl virus 0.0618805
+potassium deficiency in tomato 0.0453622
+tomato mosaic virus 0.0373936
+serpentine leaf miner 0.961107
+thrips on tomato 0.023717
+early blight of tomato 0.00846953
+leaf mold 0.00219855
+aphids on tomato 0.00201701
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/68950_1.jpg
+serpentine leaf miner 0.925991
+tomato yellow leaf curl virus 0.065608
+red spider mites 0.00459299
+leaf mold 0.00190145
+early blight of tomato 0.000518333
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/IMG_20170912_144717862.jpg
+serpentine leaf miner 0.95511
+septoria leaf spot 0.00924325
+late blight tomato 0.00882042
+early blight of tomato 0.0078064
+aphids on tomato 0.00553073
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/IMG_20170909_111300.jpg
+serpentine leaf miner 0.971487
+thrips on tomato 0.0167697
+tomato ring spot virus 0.00293544
+bacterial spot speck of tomato 0.00247325
+red spider mites 0.0011318
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/IMG_20170909_110805.jpg
+serpentine leaf miner 0.968355
+thrips on tomato 0.0219396
+potassium deficiency in tomato 0.0055405
+early blight of tomato 0.00118103
+tomato mosaic virus 0.000584779
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/leaf-miner-damage.jpg
+serpentine leaf miner 0.629319
+manganese deficiency in tomato 0.346723
+thrips on tomato 0.0205443
+tomato ring spot virus 0.00313609
+tomato white fly 7.49447e-05
+serpentine leaf miner 0.999758
+red spider mites 0.000115814
+thrips on tomato 7.73576e-05
+bacterial spot speck of tomato 1.73261e-05
+early blight of tomato 6.60229e-06
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/peat_leaf_miner_fly_cucumber.jpg
+magnesium deficiency in tomato 0.719486
+serpentine leaf miner 0.0954937
+late blight tomato 0.0747597
+leaf mold 0.0419476
+red spider mites 0.0240598
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Magnesium_deficiency_in_tomato/peat_spider_mite_tomato_01.jpg
+red spider mites 0.880328
+alternaria stem and fruit canker 0.0395285
+late blight tomato 0.0370528
+tomato yellow leaf curl virus 0.0189686
+early blight of tomato 0.0134083
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/IMG_6351-1g0s7ff.jpg
+red spider mites 0.657672
+thrips on tomato 0.164908
+potassium deficiency in tomato 0.105527
+late blight tomato 0.0497854
+calcium deficiency in tomato 0.00695922
+red spider mites 0.976348
+magnesium deficiency in tomato 0.01516
+leaf mold 0.00511912
+tomato spotted wilt 0.00133976
+manganese deficiency in tomato 0.000792187
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/Spider_Mites_Outdoors887.jpg
+red spider mites 0.881773
+leaf mold 0.0795237
+magnesium deficiency in tomato 0.00874795
+cutworm on tomato 0.00707504
+aphids on tomato 0.00675188
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/Spider_Mites_Outdoors888.jpg
+alternaria stem and fruit canker 0.261304
+leaf mold 0.149355
+manganese deficiency in tomato 0.135938
+late blight tomato 0.122489
+cutworm on tomato 0.0856908
+early blight of tomato 0.623639
+thrips on tomato 0.142784
+septoria leaf spot 0.104138
+red spider mites 0.0390771
+bacterial spot speck of tomato 0.0357145
+septoria leaf spot 0.672418
+bacterial spot speck of tomato 0.189829
+early blight of tomato 0.0965248
+serpentine leaf miner 0.0260383
+leaf mold 0.00506134
+alternaria stem and fruit canker 0.700547
+late blight tomato 0.180404
+fusarium crown and root rot 0.0363938
+early blight of tomato 0.0299761
+pith necrosis 0.0223136
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Alternaria_Stem_and_fruit_Canker/IMG_20170909_111909.jpg
+tomato fruit borer 0.881811
+alternaria stem and fruit canker 0.0697458
+cutworm on tomato 0.0151657
+bacterial spot speck of tomato 0.00973722
+red spider mites 0.00937334
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/bacterial_speck_tomato_02.jpg
+magnesium deficiency in tomato 0.747618
+serpentine leaf miner 0.0764254
+late blight tomato 0.0661493
+tomato mosaic virus 0.0350571
+early blight of tomato 0.0155054
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Magnesium_deficiency_in_tomato/bacterialspottomato2.jpg
+septoria leaf spot 0.892186
+early blight of tomato 0.0683244
+tobacco etch 0.0213015
+tomato mosaic virus 0.00852275
+alternaria stem and fruit canker 0.00381287
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Septoria_leaf_spot/leaf-spot-leaf-big.jpg
+bacterial spot speck of tomato 0.989691
+tomato fruit borer 0.00894279
+early blight of tomato 0.000848553
+cutworm on tomato 0.000332596
+septoria leaf spot 0.000111244
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/bact_spot_22.jpg
+septoria leaf spot 0.902399
+early blight of tomato 0.0369715
+serpentine leaf miner 0.0201756
+aphids on tomato 0.0146491
+bacterial spot speck of tomato 0.0133125
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Septoria_leaf_spot/tomato_q1hq-Bac-speck-on-tom-leaf-2593_zoom.jpg
+bacterial spot speck of tomato 0.98898
+alternaria stem and fruit canker 0.00704223
+anthracnose 0.00360749
+early blight of tomato 0.000302236
+blossom end rot tomato disease 1.84458e-05
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/Bacterial-speck-tomato.jpg
+bacterial spot speck of tomato 0.966295
+anthracnose 0.0313076
+tomato fruit borer 0.00198026
+alternaria stem and fruit canker 0.000284575
+tomato bushy stunt virus 0.000104482
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/bacterialspottomato3.jpg
+septoria leaf spot 0.976182
+aphids on tomato 0.0146479
+tomato white fly 0.00644769
+bacterial spot speck of tomato 0.00146649
+thrips on tomato 0.00108932
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Septoria_leaf_spot/peat_bacterial_spot_citrus.jpg
+alternaria stem and fruit canker 0.511882
+cutworm on tomato 0.260517
+bacterial spot speck of tomato 0.0956282
+potassium deficiency in tomato 0.0606325
+tomato fruit borer 0.0251584
+late blight tomato 0.960039
+calcium deficiency in tomato 0.0100983
+cutworm on tomato 0.00957796
+anthracnose 0.00412913
+pith necrosis 0.00398393
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Late_blight_tomato/peat_late_blight_tomato_01.jpg
+early blight of tomato 0.47082
+serpentine leaf miner 0.19469
+leaf mold 0.136035
+bacterial spot speck of tomato 0.0599227
+thrips on tomato2017-11-03 06:44:06.840862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:46:04.187828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:46:44.608090: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:50:23.331889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:54:59.698999: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:55:33.080729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:56:09.977566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:57:16.671360: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:58:19.377371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 06:59:17.149036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 07:07:02.406981: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 07:07:48.906190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 07:08:42.471751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 07:11:31.580152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 08:29:59.673123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 08:31:11.184021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 08:33:45.028857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 08:42:37.228273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:41:52.661746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:48:10.582109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:48:16.610822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:48:22.292046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:56:28.878126: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 12:58:04.880796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:02:24.705891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:02:39.361870: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:10:08.935239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:08.259893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:13.983729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:19.056581: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:24.166023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:29.204369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:38.049786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+ 0.0563875
+early blight of tomato 0.47082
+serpentine leaf miner 0.19469
+leaf mold 0.136035
+bacterial spot speck of tomato 0.0599227
+thrips on tomato 0.0563875
+early blight of tomato 0.521928
+bacterial spot speck of tomato 0.409545
+serpentine leaf miner 0.0302592
+tomato fruit borer 0.0172375
+alternaria stem and fruit canker 0.00843134
+early blight of tomato 0.92433
+magnesium deficiency in tomato 0.0338929
+pith necrosis 0.0308299
+verticillium wilt 0.00693097
+nitrogen deficiency in tomato 0.000895161
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/5551685.jpg
+late blight tomato 0.823188
+tobacco caterpillar on tomato 0.0586486
+phosphorus deficiency in tomato 0.044257
+powdery mildew 0.0205272
+early blight of tomato 0.0202564
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Late_blight_tomato/1577908.jpg
+blossom end rot tomato disease 0.262458
+bacterial spot speck of tomato 0.233311
+tomato spotted wilt 0.144783
+early blight of tomato 0.133803
+boron deficiency in tomato 0.0853358
+anthracnose 0.969345
+bacterial spot speck of tomato 0.0142055
+alternaria stem and fruit canker 0.01082
+fusarium wilt 0.00300118
+blossom end rot tomato disease 0.000815631
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Anthracnose/5553628.jpg
+early blight of tomato 0.968128
+late blight tomato 0.00948444
+alternaria stem and fruit canker 0.00644673
+leaf mold 0.00601916
+pith necrosis 0.00406314
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/5553630.jpg
+damping off 0.815751
+early blight of tomato 0.171179
+septoria leaf spot 0.0121815
+tomato spotted wilt 0.000422528
+tobacco etch 0.000172093
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Damping_off/5553626.jpg
+early blight of tomato 0.874509
+septoria leaf spot 0.103654
+boron deficiency in tomato 0.00776375
+tomato mosaic virus 0.00485043
+pith necrosis 0.00336843
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Early_blight_of_tomato/5544140.jpg
+alternaria stem and fruit canker 0.863902
+early blight of tomato 0.121136
+late blight tomato 0.00527616
+fusarium wilt 0.0046349
+calcium deficiency in tomato 0.0026505
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Alternaria_Stem_and_fruit_Canker/5551686.jpg
+root knot nematode 0.696889
+damping off 0.278084
+septoria leaf spot 0.00914095
+southern blight 0.00588335
+early blight of tomato 0.00446529
+tobacco caterpillar on tomato 0.982113
+serpentine leaf miner 0.00835319
+tomato mosaic virus 0.00332913
+early blight of tomato 0.00143819
+leaf mold 0.00120916
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tobacco_Caterpillar_on_tomato/5521656.jpg
+tomato fruit borer 0.995486
+serpentine leaf miner 0.00352476
+cutworm on tomato 0.000335107
+alternaria stem and fruit canker 0.000164056
+early blight of tomato 0.000128309
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_fruit_borer/5507570.jpg
+late blight tomato 0.969062
+powdery mildew 0.0228615
+alternaria stem and fruit canker 0.0050241
+thrips on tomato 0.00150379
+red spider mites 0.000871465
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Late_blight_tomato/1575713.jpg
+bacterial spot speck of tomato 0.629253
+alternaria stem and fruit canker 0.215679
+septoria leaf spot 0.143155
+early blight of tomato 0.00872683
+tobacco etch 0.00142324
+cutworm on tomato 0.999132
+aphids on tomato 0.000508939
+tobacco caterpillar on tomato 0.000166524
+thrips on tomato 0.00011281
+tomato fruit borer 1.63554e-05
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Cutworm_on_tomato/6-pale_western_cutworm-larva.jpg
+cutworm on tomato 0.991383
+late blight tomato 0.00370651
+southern blight 0.00240441
+alternaria stem and fruit canker 0.000748977
+white grubs of tomato 0.000644848
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Cutworm_on_tomato/cutworm.jpg
+cutworm on tomato 0.502087
+bacterial spot speck of tomato 0.321943
+alternaria stem and fruit canker 0.0785689
+early blight of tomato 0.0613851
+aphids on tomato 0.00885951
+tomato spotted wilt 0.546838
+bacterial wilt of tomato 0.14876
+tomato yellow leaf curl virus 0.0618805
+potassium deficiency in tomato 0.0453622
+tomato mosaic virus 0.0373936
+serpentine leaf miner 0.954794
+tomato yellow leaf curl virus 0.0187932
+aphids on tomato 0.0148861
+tomato white fly 0.00881569
+thrips on tomato 0.00145962
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/5-4-30_leaf_miners_scot_nelson_ccby20_sm.jpg
+serpentine leaf miner 0.845299
+tomato mosaic virus 0.0825821
+early blight of tomato 0.0297537
+aphids on tomato 0.0120394
+pith necrosis 0.00877852
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/145-500x29.jpg
+serpentine leaf miner 0.970845
+leaf mold 0.0107158
+tomato fern leaf 0.00713176
+tobacco caterpillar on tomato 0.00318887
+iron deficiency in tomato 0.00200139
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Serpentine_leaf_miner/570e71e4a69cb.jpg
+bacterial spot speck of tomato 0.974395
+cutworm on tomato 0.0196067
+late blight tomato 0.00426623
+early blight of tomato 0.000501851
+calcium deficiency in tomato 0.000417418
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/image_2321.jpg
+early blight of tomato 0.596364
+leaf mold 0.279884
+nitrogen deficiency in tomato 0.0662209
+bacterial spot speck of tomato 0.0208255
+potassium deficiency in tomato 0.0098278
+red spider mites 0.905548
+septoria leaf spot 0.0238813
+white grubs of tomato 0.0210727
+cutworm on tomato 0.0174178
+bacterial spot speck of tomato 0.0145277
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/1_beans_spider_mites_1.jpg
+red spider mites 0.905548
+septoria leaf spot 0.0238813
+white grubs of tomato 0.0210727
+cutworm on tomato 0.0174178
+bacterial spot speck of tomato 0.0145277
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/1_beans_spider_mites_1.jpg
+alternaria stem and fruit canker 0.949346
+cutworm on tomato 0.0283952
+tomato fruit borer 0.0171572
+early blight of tomato 0.00298532
+late blight tomato 0.00173126
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Alternaria_Stem_and_fruit_Canker/Screen_Shot_2017-11-03_at_13.09.46.png
+tomato white fly 0.986482
+powdery mildew 0.0046582
+serpentine leaf miner 0.00334467
+alternaria stem and fruit canker 0.0026873
+tomato alfalfa mosaic virus 0.000817703
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/jpg
+tomato white fly 0.998602
+southern blight 0.000869656
+red spider mites 0.000218931
+aphids on tomato 9.25517e-05
+powdery mildew 5.24583e-05
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/652x450_089728-cum-combati-musculitele-albe-aleyrodidae.jpg
+tomato white fly 0.882218
+tomato yellow leaf curl virus 0.106036
+tomato spotted wilt 0.00502855
+leaf mold 0.00364344
+curly top 0.0011568
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/92070.jpg
+tomato white fly 0.955722
+aphids on tomato 0.0292306
+thrips on tomato 0.00399792
+bacterial spot speck of tomato 0.00360877
+tomato alfalfa mosaic virus 0.0031794
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/download_1.jpg
+tomato white fly 0.987513
+white grubs of tomato 0.0109977
+tomato mosaic virus 0.00145329
+magnesium deficiency in tomato 1.1887e-05
+verticillium wilt 9.31769e-06
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/download.jpg
+tomato white fly 0.955722
+aphids on tomato 0.0292306
+thrips on tomato 0.00399792
+bacterial spot speck of tomato 0.00360877
+tomato alfalfa mosaic virus 0.0031794
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/download_1.jpg2017-11-03 13:56:44.484958: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:50.689164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:56:55.735692: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:00.354926: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:16.426810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:22.052778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:26.769432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:33.682710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:42.253880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:57:48.403561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:58:03.749713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 13:58:40.041492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-03 14:04:03 +0000] [15133] [INFO] Handling signal: term
+[2017-11-03 14:04:03 +0000] [15136] [INFO] Worker exiting (pid: 15136)
+
+tomato white fly 0.9999
+serpentine leaf miner 2.63658e-05
+bacterial wilt of tomato 1.98975e-05
+phosphorus deficiency in tomato 1.83669e-05
+tomato fern leaf 1.52518e-05
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_1.jpg
+tomato white fly 0.991472
+aphids on tomato 0.00638435
+septoria leaf spot 0.000849687
+bacterial spot speck of tomato 0.00038728
+thrips on tomato 0.000329506
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_11.jpg
+tomato white fly 0.955834
+red spider mites 0.0181777
+serpentine leaf miner 0.00833941
+root knot nematode 0.00535558
+fusarium wilt 0.00365869
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_2.jpg
+tomato white fly 0.998017
+aphids on tomato 0.000933154
+bacterial spot speck of tomato 0.000446647
+fusarium crown and root rot 0.000209589
+curly top 0.000112851
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_3.jpg
+tomato white fly 0.998017
+aphids on tomato 0.000933154
+bacterial spot speck of tomato 0.000446647
+fusarium crown and root rot 0.000209589
+curly top 0.000112851
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_3.jpg
+tomato white fly 0.817072
+red spider mites 0.0728626
+southern blight 0.0373612
+powdery mildew 0.0262546
+serpentine leaf miner 0.0223568
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_4.jpg
+tomato white fly 0.817072
+red spider mites 0.0728626
+southern blight 0.0373612
+powdery mildew 0.0262546
+serpentine leaf miner 0.0223568
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/images_4.jpg
+tomato white fly 0.98168
+serpentine leaf miner 0.0114131
+septoria leaf spot 0.00388972
+aphids on tomato 0.00162085
+tomato yellow leaf curl virus 0.000318418
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/IMG_20170912_132240970.jpg
+tomato white fly 0.949099
+white grubs of tomato 0.0248346
+red spider mites 0.017838
+serpentine leaf miner 0.00162991
+potato virus 0.00158744
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/tomato_en_image_14.jpg
+tomato white fly 0.908161
+early blight of tomato 0.02408
+serpentine leaf miner 0.0167152
+blossom end rot tomato disease 0.0135877
+curly top 0.0126741
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/IMG_20170912_131850462.jpg
+tomato white fly 0.958838
+serpentine leaf miner 0.0331096
+aphids on tomato 0.00455968
+thrips on tomato 0.00125556
+septoria leaf spot 0.000647411
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Tomato_White_Fly/IMG_20170912_132029140.jpg
+serpentine leaf miner 0.696621
+tomato white fly 0.113831
+leaf mold 0.0985214
+bacterial spot speck of tomato 0.0354986
+early blight of tomato 0.023561
+[2017-11-03 14:04:05 +0000] [15133] [INFO] Shutting down: Master
+[2017-11-03 14:06:09 +0000] [22163] [INFO] Starting gunicorn 19.7.1
+[2017-11-03 14:06:09 +0000] [22163] [INFO] Listening at: http://127.0.0.1:8000 (22163)
+[2017-11-03 14:06:09 +0000] [22163] [INFO] Using worker: sync
+[2017-11-03 14:06:09 +0000] [22166] [INFO] Booting worker with pid: 22166
+2017-11-03 14:06:10.839649: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:06:10.839687: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:06:10.839693: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:06:10.839698: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:06:10.839704: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:06:13.593023: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-03 14:06:13.593343: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-03 14:06:13.593362: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-03 14:06:13.593368: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-03 14:06:13.593377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:07:33.341775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-03 14:11:09 +0000] [22163] [INFO] Handling signal: term
+[2017-11-03 14:11:09 +0000] [22166] [INFO] Worker exiting (pid: 22166)
+red spider mites 0.905548
+septoria leaf spot 0.0238813
+white grubs of tomato 0.0210727
+cutworm on tomato 0.0174178
+bacterial spot speck of tomato 0.0145277
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/1_beans_spider_mites_1.jpg
+[2017-11-03 14:11:10 +0000] [22163] [INFO] Shutting down: Master
+[2017-11-03 14:11:12 +0000] [22250] [INFO] Starting gunicorn 19.7.1
+[2017-11-03 14:11:12 +0000] [22250] [INFO] Listening at: http://127.0.0.1:8000 (22250)
+[2017-11-03 14:11:12 +0000] [22250] [INFO] Using worker: sync
+[2017-11-03 14:11:12 +0000] [22253] [INFO] Booting worker with pid: 22253
+2017-11-03 14:11:13.399571: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:13.399611: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:13.399618: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:13.399633: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:13.399639: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:16.152613: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-03 14:11:16.152933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-03 14:11:16.152953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-03 14:11:16.152961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-03 14:11:16.152970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:11:26.829666: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-03 14:11:46 +0000] [22250] [INFO] Handling signal: term
+[2017-11-03 14:11:46 +0000] [22253] [INFO] Worker exiting (pid: 22253)
+red spider mites 0.905548
+septoria leaf spot 0.0238813
+white grubs of tomato 0.0210727
+cutworm on tomato 0.0174178
+bacterial spot speck of tomato 0.0145277
+Saving image to: /home/ubuntu/crop_classification_updated/data_dir/train_dir/Red_Spider_Mites/1_beans_spider_mites_1.jpg
+[2017-11-03 14:11:48 +0000] [22250] [INFO] Shutting down: Master
+[2017-11-03 14:11:48 +0000] [22297] [INFO] Starting gunicorn 19.7.1
+[2017-11-03 14:11:48 +0000] [22297] [INFO] Listening at: http://127.0.0.1:8000 (22297)
+[2017-11-03 14:11:48 +0000] [22297] [INFO] Using worker: sync
+[2017-11-03 14:11:48 +0000] [22300] [INFO] Booting worker with pid: 22300
+2017-11-03 14:11:49.723562: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:49.723605: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:49.723612: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:49.723618: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:49.723623: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 14:11:52.474516: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-03 14:11:52.474832: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-03 14:11:52.474850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-03 14:11:52.474856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-03 14:11:52.474864: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:11:53.188532: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:11:58.996475: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:12:17.489152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:12:32.421475: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:13:01.598386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:14:16.546512: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:15:00.534555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-03 14:16:49.311343: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-03 16:35:07 +0000] [22297] [INFO] Handling signal: hup
+[2017-11-03 16:35:07 +0000] [22297] [INFO] Hang up: Master
+[2017-11-03 16:35:07 +0000] [22764] [INFO] Booting worker with pid: 22764
+2017-11-03 16:35:08.459783: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 16:35:08.459825: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 16:35:08.459833: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 16:35:08.459838: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 16:35:08.459843: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-03 16:35:08.793993: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-03 16:35:08.794309: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-03 16:35:08.794327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-03 16:35:08.794333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-03 16:35:08.794342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-04 06:39:04 +0000] [22297] [INFO] Handling signal: term
+[2017-11-04 06:39:05 +0000] [22297] [INFO] Shutting down: Master
+[2017-11-04 11:13:27 +0000] [4719] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 11:13:27 +0000] [4719] [INFO] Listening at: http://127.0.0.1:8000 (4719)
+[2017-11-04 11:13:27 +0000] [4719] [INFO] Using worker: sync
+[2017-11-04 11:13:27 +0000] [4722] [INFO] Booting worker with pid: 4722
+2017-11-04 11:13:28.215186: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 11:13:28.215228: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 11:13:28.215241: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 11:13:28.215250: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 11:13:28.215259: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 11:13:28.292926: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-04 11:13:28.293115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 419.12MiB
+2017-11-04 11:13:28.293133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-04 11:13:28.293140: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-04 11:13:28.293148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 11:13:57.973604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-04 12:46:43 +0000] [4719] [INFO] Handling signal: term
+[2017-11-04 12:46:43 +0000] [4722] [INFO] Worker exiting (pid: 4722)
+blossom end rot tomato disease 0.586609
+late blight tomato 0.256434
+alternaria stem and fruit canker 0.0546599
+pith necrosis 0.0418725
+potassium deficiency in tomato 0.0261291
+[2017-11-04 12:46:44 +0000] [4719] [INFO] Shutting down: Master
+[2017-11-04 12:47:12 +0000] [15191] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 12:47:12 +0000] [15191] [INFO] Listening at: http://127.0.0.1:8000 (15191)
+[2017-11-04 12:47:12 +0000] [15191] [INFO] Using worker: sync
+[2017-11-04 12:47:12 +0000] [15194] [INFO] Booting worker with pid: 15194
+[2017-11-04 12:47:13 +0000] [15194] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 32, in <module>
+    graph = load_graph(model_file)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/utils.py", line 15, in load_graph
+    with open(model_file, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/crop_classification_updated/kisan_app/model/retrained_graph_8000.pb'
+[2017-11-04 12:47:13 +0000] [15194] [INFO] Worker exiting (pid: 15194)
+[2017-11-04 12:47:13 +0000] [15191] [INFO] Shutting down: Master
+[2017-11-04 12:47:13 +0000] [15191] [INFO] Reason: Worker failed to boot.
+[2017-11-04 12:47:54 +0000] [15205] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 12:47:54 +0000] [15205] [INFO] Listening at: http://127.0.0.1:8000 (15205)
+[2017-11-04 12:47:54 +0000] [15205] [INFO] Using worker: sync
+[2017-11-04 12:47:54 +0000] [15208] [INFO] Booting worker with pid: 15208
+[2017-11-04 12:47:55 +0000] [15208] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 39, in <module>
+    input_operation = graph.get_operation_by_name(input_name);
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 2836, in get_operation_by_name
+    return self.as_graph_element(name, allow_tensor=False, allow_operation=True)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 2708, in as_graph_element
+    return self._as_graph_element_locked(obj, allow_tensor, allow_operation)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 2768, in _as_graph_element_locked
+    "graph." % repr(name))
+KeyError: "The name 'import/input' refers to an Operation not in the graph."
+[2017-11-04 12:47:55 +0000] [15208] [INFO] Worker exiting (pid: 15208)
+[2017-11-04 12:47:55 +0000] [15205] [INFO] Shutting down: Master
+[2017-11-04 12:47:55 +0000] [15205] [INFO] Reason: Worker failed to boot.
+[2017-11-04 12:48:13 +0000] [15214] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 12:48:13 +0000] [15214] [INFO] Listening at: http://127.0.0.1:8000 (15214)
+[2017-11-04 12:48:13 +0000] [15214] [INFO] Using worker: sync
+[2017-11-04 12:48:13 +0000] [15217] [INFO] Booting worker with pid: 15217
+2017-11-04 12:48:14.907483: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:48:14.907523: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:48:14.907530: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:48:14.907535: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:48:14.907540: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:48:17.512185: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-04 12:48:17.512512: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-04 12:48:17.512530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-04 12:48:17.512536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-04 12:48:17.512544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:48:41.201294: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-04 12:48:41,403] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 76, in uploader
+    {input_operation.outputs[0]: t})
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 895, in run
+    run_metadata_ptr)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1100, in _run
+    % (np_val.shape, subfeed_t.name, str(subfeed_t.get_shape())))
+ValueError: Cannot feed value of shape (1, 224, 224, 3) for Tensor 'import/Mul:0', which has shape '(1, 299, 299, 3)'
+[2017-11-04 12:49:14 +0000] [15214] [INFO] Handling signal: term
+[2017-11-04 12:49:14 +0000] [15217] [INFO] Worker exiting (pid: 15217)
+[2017-11-04 12:49:16 +0000] [15214] [INFO] Shutting down: Master
+[2017-11-04 12:49:16 +0000] [15263] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 12:49:16 +0000] [15263] [INFO] Listening at: http://127.0.0.1:8000 (15263)
+[2017-11-04 12:49:16 +0000] [15263] [INFO] Using worker: sync
+[2017-11-04 12:49:16 +0000] [15266] [INFO] Booting worker with pid: 15266
+2017-11-04 12:49:18.083099: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:49:18.083145: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:49:18.083152: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:49:18.083157: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:49:18.083163: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:49:20.825249: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-04 12:49:20.825631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-04 12:49:20.825661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-04 12:49:20.825671: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-04 12:49:20.825684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:49:29.126992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:49:29.731387: W tensorflow/core/framework/op_def_util.cc:333] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[2017-11-04 12:49:30,704] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 86, in uploader
+    shutil.copy(os.path.join(app.config['UPLOAD_FOLDER'],str(filename)), "/home/ubuntu/crop_classification_updated/data_dir/train_dir/{0}/{1}".format(data_dict[labels[top_k[0]]],filename))
+  File "/home/ubuntu/py35/lib/python3.5/shutil.py", line 235, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/ubuntu/py35/lib/python3.5/shutil.py", line 115, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/image_2321.jpg'
+2017-11-04 12:54:00.913521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-04 12:54:00,977] ERROR in app: Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/py35/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 86, in uploader
+    shutil.copy(os.path.join(app.config['UPLOAD_FOLDER'],str(filename)), "/home/ubuntu/crop_classification_updated/data_dir/train_dir/{0}/{1}".format(data_dict[labels[top_k[0]]],filename))
+  File "/home/ubuntu/py35/lib/python3.5/shutil.py", line 235, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/ubuntu/py35/lib/python3.5/shutil.py", line 115, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/crop_classification_updated/data_dir/train_dir/Bacterial_Spot_Speck_of_Tomato/image_2321.jpg'
+[2017-11-04 12:54:44 +0000] [15263] [INFO] Handling signal: term
+[2017-11-04 12:54:44 +0000] [15266] [INFO] Worker exiting (pid: 15266)
+bacterial spot speck of tomato 0.863321
+tomato fruit borer 0.0419602
+early blight of tomato 0.022139
+late blight tomato 0.0200122
+aphids on tomato 0.0130389
+bacterial spot speck of tomato 0.863321
+tomato fruit borer 0.0419602
+early blight of tomato 0.022139
+late blight tomato 0.0200122
+aphids on tomato 0.0130389
+[2017-11-04 12:54:45 +0000] [15263] [INFO] Shutting down: Master
+[2017-11-04 12:54:46 +0000] [15326] [INFO] Starting gunicorn 19.7.1
+[2017-11-04 12:54:46 +0000] [15326] [INFO] Listening at: http://127.0.0.1:8000 (15326)
+[2017-11-04 12:54:46 +0000] [15326] [INFO] Using worker: sync
+[2017-11-04 12:54:46 +0000] [15329] [INFO] Booting worker with pid: 15329
+2017-11-04 12:54:47.716823: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:54:47.716865: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:54:47.716873: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:54:47.716878: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:54:47.716883: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-04 12:54:50.462855: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-04 12:54:50.463215: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-04 12:54:50.463247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-04 12:54:50.463262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-04 12:54:50.463276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:55:18.136294: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:55:18.735244: W tensorflow/core/framework/op_def_util.cc:333] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+2017-11-04 12:56:08.940174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:57:40.794668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:58:38.449714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 12:59:49.475209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:00:54.406777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:01:41.810130: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:01:49.842428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:02:55.224876: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:04:33.983005: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:07:17.617210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:30:45.754644: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:30:51.994628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:30:57.082382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:02.920558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:12.340749: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:18.746743: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:25.863732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:33.875720: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:45.639163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:31:58.954969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:32:14.628934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:32:30.109278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:32:43.469486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:32:52.752214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:33:01.198473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:33:37.593739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:39:03.316472: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:39:12.187965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:39:29.395091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:39:45.118803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:42:05.468393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:42:13.354493: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:42:20.143604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:42:41.416835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-04 13:42:53.235736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-04 16:09:13 +0000] [15326] [INFO] Handling signal: term
+[2017-11-04 16:09:14 +0000] [15326] [INFO] Shutting down: Master
+[2017-11-07 11:10:02 +0000] [2802] [INFO] Starting gunicorn 19.7.1
+[2017-11-07 11:10:02 +0000] [2802] [INFO] Listening at: http://127.0.0.1:8000 (2802)
+[2017-11-07 11:10:02 +0000] [2802] [INFO] Using worker: sync
+[2017-11-07 11:10:02 +0000] [2805] [INFO] Booting worker with pid: 2805
+2017-11-07 11:10:05.873549: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-07 11:10:05.873591: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-07 11:10:05.873599: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-07 11:10:05.873605: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-07 11:10:05.873610: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-07 11:10:08.671559: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-07 11:10:08.671884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-07 11:10:08.671904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-07 11:10:08.671911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-07 11:10:08.671920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:10:30.351431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:10:32.100895: W tensorflow/core/framework/op_def_util.cc:333] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+2017-11-07 11:10:43.038163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:10:48.113771: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:11:01.041898: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:11:28.030197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:12:21.660715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:13:07.695321: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-07 11:14:55.985741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-07 12:47:23 +0000] [2802] [INFO] Handling signal: term
+[2017-11-07 12:47:23 +0000] [2805] [INFO] Worker exiting (pid: 2805)
+early blight of tomato 0.678974
+late blight tomato 0.172952
+powdery mildew 0.0391425
+phosphorus deficiency in tomato 0.028263
+septoria leaf spot 0.0143822
+root knot nematode 0.999918
+southern blight 4.25074e-05
+fusarium crown and root rot 2.21008e-05
+fusarium wilt 5.82662e-06
+damping off 3.93211e-06
+serpentine leaf miner 0.932385
+bacterial spot speck of tomato 0.0323808
+late blight tomato 0.0121591
+tomato white fly 0.00931385
+early blight of tomato 0.00388198
+thrips on tomato 0.980836
+tomato healthy fruits 0.00588979
+alternaria stem and fruit canker 0.00458514
+tomato spotted wilt 0.00225782
+magnesium deficiency in tomato 0.00222828
+tomato white fly 0.953742
+magnesium deficiency in tomato 0.0227958
+tomato healthy leaves 0.0120938
+serpentine leaf miner 0.00594906
+septoria leaf spot 0.00140375
+tomato white fly 0.888008
+septoria leaf spot 0.0309583
+nitrogen deficiency in tomato 0.0236123
+aphids on tomato 0.0196814
+powdery mildew 0.013384
+tomato healthy fruits 0.759115
+early blight of tomato 0.0463589
+pith necrosis 0.0349303
+aphids on tomato 0.0283255
+alternaria stem and fruit canker 0.0258454
+tomato healthy fruits 0.913978
+tomato healthy stem 0.016792
+tomato healthy flowers 0.0129994
+tomato fruit borer 0.0104285
+tomato healthy leaves 0.00972432
+[2017-11-07 12:47:24 +0000] [2802] [INFO] Shutting down: Master
+[2017-11-09 15:00:02 +0000] [1649] [INFO] Starting gunicorn 19.7.1
+[2017-11-09 15:00:02 +0000] [1649] [INFO] Listening at: http://127.0.0.1:8000 (1649)
+[2017-11-09 15:00:02 +0000] [1649] [INFO] Using worker: sync
+[2017-11-09 15:00:02 +0000] [1652] [INFO] Booting worker with pid: 1652
+2017-11-09 15:00:05.670996: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 15:00:05.671044: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 15:00:05.671051: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 15:00:05.671057: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 15:00:05.671076: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-09 15:00:08.594457: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-09 15:00:08.594806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:1e.0
+Total memory: 11.17GiB
+Free memory: 11.10GiB
+2017-11-09 15:00:08.594828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-09 15:00:08.594835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-09 15:00:08.594844: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-09 15:02:04.220563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-09 15:02:06.100434: W tensorflow/core/framework/op_def_util.cc:333] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+2017-11-10 06:29:34.645347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 06:56:05.129532: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 06:56:44.087122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 06:57:01.701894: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 06:57:33.048360: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 07:40:10.814026: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 07:40:37.831450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 08:07:52.158219: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 08:08:03.645449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 08:11:27.637016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 08:13:25.022765: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+2017-11-10 08:13:35.065282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:1e.0)
+[2017-11-10 08:36:23 +0000] [1649] [INFO] Handling signal: term
+[2017-11-10 08:36:23 +0000] [1652] [INFO] Worker exiting (pid: 1652)
+tomato white fly 0.888008
+septoria leaf spot 0.0309583
+nitrogen deficiency in tomato 0.0236123
+aphids on tomato 0.0196814
+powdery mildew 0.013384
+cutworm on tomato 0.870788
+septoria leaf spot 0.0376981
+serpentine leaf miner 0.0238922
+fusarium wilt 0.0173845
+thrips on tomato 0.0169325
+anthracnose 0.993914
+pith necrosis 0.00156171
+white grubs of tomato 0.000918066
+tomato fruit borer 0.000725242
+blossom end rot tomato disease 0.000552034
+red spider mites 0.580346
+late blight tomato 0.300823
+bacterial spot speck of tomato 0.051665
+anthracnose 0.0134723
+alternaria stem and fruit canker 0.0113582
+tomato fruit borer 0.490311
+cutworm on tomato 0.258648
+alternaria stem and fruit canker 0.117816
+serpentine leaf miner 0.0373345
+early blight of tomato 0.0222403
+early blight of tomato 0.985778
+septoria leaf spot 0.00467742
+tomato mosaic virus 0.00306459
+alternaria stem and fruit canker 0.00201449
+pith necrosis 0.00152542
+tomato healthy flowers 0.839747
+phosphorus deficiency in tomato 0.0435545
+tomato healthy fruits 0.0312187
+serpentine leaf miner 0.018277
+tomato healthy leaves 0.01773
+tomato healthy flowers 0.994794
+tomato healthy stem 0.00168645
+magnesium deficiency in tomato 0.00106739
+nitrogen deficiency in tomato 0.00105129
+fusarium wilt 0.000663737
+southern blight 0.156917
+early blight of tomato 0.131236
+manganese deficiency in tomato 0.092115
+tomato healthy flowers 0.0881853
+tomato healthy fruits 0.0619731
+southern blight 0.156917
+early blight of tomato 0.131236
+manganese deficiency in tomato 0.092115
+tomato healthy flowers 0.0881853
+tomato healthy fruits 0.0619731
+bacterial wilt of tomato 0.438627
+early blight of tomato 0.0977736
+white grubs of tomato 0.0948958
+southern blight 0.0890699
+curly top 0.0855656
+bacterial wilt of tomato 0.438627
+early blight of tomato 0.0977736
+white grubs of tomato 0.0948958
+southern blight 0.0890699
+curly top 0.0855656
+bacterial wilt of tomato 0.438627
+early blight of tomato 0.0977736
+white grubs of tomato 0.0948958
+southern blight 0.0890699
+curly top 0.0855656
+[2017-11-10 08:36:24 +0000] [1649] [INFO] Shutting down: Master
+[2017-11-14 18:55:46 +0000] [25067] [INFO] Starting gunicorn 19.7.1
+[2017-11-14 18:55:46 +0000] [25067] [INFO] Listening at: http://127.0.0.1:8000 (25067)
+[2017-11-14 18:55:46 +0000] [25067] [INFO] Using worker: sync
+[2017-11-14 18:55:46 +0000] [25072] [INFO] Booting worker with pid: 25072
+[2017-11-14 18:55:46 +0000] [25072] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 10, in <module>
+    from PIL import Image
+ImportError: No module named PIL
+[2017-11-14 18:55:46 +0000] [25072] [INFO] Worker exiting (pid: 25072)
+[2017-11-14 18:55:46 +0000] [25067] [INFO] Shutting down: Master
+[2017-11-14 18:55:46 +0000] [25067] [INFO] Reason: Worker failed to boot.
+[2017-11-14 18:57:01 +0000] [25100] [INFO] Starting gunicorn 19.7.1
+[2017-11-14 18:57:01 +0000] [25100] [INFO] Listening at: http://127.0.0.1:8000 (25100)
+[2017-11-14 18:57:01 +0000] [25100] [INFO] Using worker: sync
+[2017-11-14 18:57:01 +0000] [25105] [INFO] Booting worker with pid: 25105
+[2017-11-14 18:57:02 +0000] [25105] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 19, in <module>
+    from sklearn.externals import joblib
+ImportError: No module named sklearn.externals
+[2017-11-14 18:57:02 +0000] [25105] [INFO] Worker exiting (pid: 25105)
+[2017-11-14 18:57:02 +0000] [25100] [INFO] Shutting down: Master
+[2017-11-14 18:57:02 +0000] [25100] [INFO] Reason: Worker failed to boot.
+[2017-11-14 18:57:59 +0000] [25116] [INFO] Starting gunicorn 19.7.1
+[2017-11-14 18:57:59 +0000] [25116] [INFO] Listening at: http://127.0.0.1:8000 (25116)
+[2017-11-14 18:57:59 +0000] [25116] [INFO] Using worker: sync
+[2017-11-14 18:57:59 +0000] [25121] [INFO] Booting worker with pid: 25121
+[2017-11-14 18:57:59 +0000] [25121] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/ubuntu/crop_classification_updated/kisan_app/app.py", line 19, in <module>
+    from sklearn.externals import joblib
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/sklearn/__init__.py", line 134, in <module>
+    from .base import clone
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/sklearn/base.py", line 11, in <module>
+    from scipy import sparse
+ImportError: No module named scipy
+[2017-11-14 18:57:59 +0000] [25121] [INFO] Worker exiting (pid: 25121)
+[2017-11-14 18:57:59 +0000] [25116] [INFO] Shutting down: Master
+[2017-11-14 18:57:59 +0000] [25116] [INFO] Reason: Worker failed to boot.
+[2017-11-15 00:30:35 +0000] [29935] [INFO] Starting gunicorn 19.7.1
+[2017-11-15 00:30:35 +0000] [29935] [INFO] Listening at: http://127.0.0.1:8000 (29935)
+[2017-11-15 00:30:35 +0000] [29935] [INFO] Using worker: sync
+[2017-11-15 00:30:35 +0000] [29938] [INFO] Booting worker with pid: 29938
+2017-11-15 00:30:36.846141: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-15 00:30:52.280186: W tensorflow/core/framework/op_def_util.cc:334] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[2017-11-15 00:43:15 +0000] [29935] [INFO] Handling signal: term
+[2017-11-15 00:43:15 +0000] [29938] [INFO] Worker exiting (pid: 29938)
+anthracnose 0.993914
+pith necrosis 0.00156171
+white grubs of tomato 0.000918061
+tomato fruit borer 0.000725245
+blossom end rot tomato disease 0.000552033
+tomato fruit borer 0.490311
+cutworm on tomato 0.258647
+alternaria stem and fruit canker 0.117816
+serpentine leaf miner 0.0373352
+early blight of tomato 0.0222404
+[2017-11-15 00:43:16 +0000] [29935] [INFO] Shutting down: Master

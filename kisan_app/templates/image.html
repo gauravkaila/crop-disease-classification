@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+    <img src="{{url_for('send_image', filename = image)}}" align = "middle"/>
+    <h1>Prediction1: {{ prediction1 }} </h1>
+    <h2>Confidence: {{ confidence1 }} </h2>
+    <h1>Prediction2: {{ prediction2 }} </h2>
+    <h2>Confidence: {{ confidence2 }} </h2>
+</body>
