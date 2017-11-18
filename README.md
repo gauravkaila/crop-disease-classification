@@ -16,22 +16,6 @@
  * [retrain_compare.sh](./retrain_compare.sh): utility script for retrain.sh
  * [README.md](./README.md)
 
-## Folder structure
-KisanLab_CPU-|
-				              |-Kisan_app-|
-				              |                      |- model: directory containing model files for API
-				              |                      |- templates
-				              |                      |- static
-				              |-tf_files-|
-				              |                      |- models: directory containing model files for training
-				              |                      |- bottlenecks: feature files for each image for each class. required for faster training		              
-				              |-data_dir: contains sub-folders with images of each class
-				              |-scripts: contains python files for training the models, evaluation and quantization
-				              |-train.sh: bash script to run the training for inceptionV3 model
-				              |-train_mobilenet.sh: bash script to run the training for the mobilenet model
-				              |-retrain.sh: bash script to re-train the model on new images
-				              |-retrain_compare.sh: utility script for retrain.sh	                                      
-
 ## Training the image-classification model
 
 ### Activate the python virtualenv (run from root)
