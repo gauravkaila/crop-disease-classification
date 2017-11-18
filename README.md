@@ -1,3 +1,14 @@
+## Get Started
+
+### Instal python virtualenv
+virtualenv --system-site-packages -p python3 py35
+
+### Activate the python virtualenv (run from root)
+source py35/bin/activate
+
+### Install dependencies
+sh requirements.sh
+
 ## Project tree
 
  * [Kisan_app](./kisan_app)
