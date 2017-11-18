@@ -1,3 +1,6 @@
+# Automated classification of tomato plant disease
+Deep learning based automated tomato plant disease classification covering over 40 disease classes and 4 healthy classes. 
+
 ## Get Started
 
 ### Instal python virtualenv
