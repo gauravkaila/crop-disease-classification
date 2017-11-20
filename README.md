@@ -72,7 +72,7 @@ cd crop_classification_updated/kisan_app
 nohup gunicorn app:app -b localhost:8000 &
 
 ### Access API via curl cmd
-curl -F file=@/path/to/your/image http://ec2-13-127-39-214.ap-south-1.compute.amazonaws.com/api_call
+curl -F file=@/path/to/your/image ${PUBLIC_IP_OF_EC2_INSTANCE}
 
 #### Output (in json)
 
