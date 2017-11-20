@@ -90,4 +90,5 @@ or
 ### Access the web-api via the public IP of the ec2 instance
 
 #### Output
-![alt text](https://raw.githubusercontent.com/gauravkaila/KisanLab_CPU/master/sample.png) 
+![alt text](https://raw.githubusercontent.com/gauravkaila/crop-disease-classification/master/sample.png)
+
