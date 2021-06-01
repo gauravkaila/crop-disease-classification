@@ -176,7 +176,7 @@ traitlets==4.3.2
 tsne==0.1.7
 ujson==1.35
 unicodecsv==0.14.1
-urllib3==1.21.1
+urllib3==1.26.5
 wcwidth==0.1.7
 Werkzeug==0.12.2
 widgetsnbextension==2.0.0
