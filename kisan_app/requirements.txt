@@ -96,7 +96,7 @@ numexpr==2.6.2
 numpy==1.13.0
 numpydoc==0.6.0
 olefile==0.44
-opencv-python==3.2.0.7
+opencv-python==4.2.0.32
 openpyxl==2.4.7
 packaging==16.8
 pandas==0.20.2
